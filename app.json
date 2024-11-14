@@ -19,6 +19,12 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
+      },
+      "android": {
+        "permissions": [
+          "USE_BIOMETRIC",
+          "USE_FINGERPRINT"
+        ]
       }
     },
     "web": {
