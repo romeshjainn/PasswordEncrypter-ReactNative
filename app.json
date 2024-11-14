@@ -25,7 +25,8 @@
           "USE_BIOMETRIC",
           "USE_FINGERPRINT"
         ]
-      }
+      },
+      "package": "com.romeshjain.encrypyer"
     },
     "web": {
       "bundler": "metro",
@@ -37,6 +38,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "dd764c5f-ed33-4014-8439-a956aa580595"
+      }
     }
   }
 }
